@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Source sans Pro" sans-serif;
+    background-image: url(pexels-karyme-frança-8159242.jpg);
+    
+}
+.container{
+    width:100% ;
+    margin: 1rem auto;
+    background-color:darkslategrey;
+}
+
+.grid{
+    display: grid;
+    margin-left: .5px;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap: 0.2em;
+    justify-content: center;
+
+
+
+
+}
